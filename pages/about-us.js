@@ -1,7 +1,7 @@
 const AboutUsPage = () => {
   return (
-    <div>
-      <h1 className='my-2'> About us Page</h1>
+    <div >
+      <h1 className='my-4 text-slate-900 text-2xl'> About us </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -17,7 +17,7 @@ const AboutUsPage = () => {
         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
         cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-      <ul className="about_us_list">
+      <ul className="about_us_list mt-4">
         <li>
           <h3>Dlor in reprehenderit </h3>
           <p>

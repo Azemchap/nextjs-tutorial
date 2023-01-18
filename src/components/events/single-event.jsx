@@ -37,19 +37,22 @@ const SingleEvent = ({ data }) => {
   };
 
   return (
-    <div className="event_single_page">
-      <h1> {data.title} </h1>
-      <Image src={data.image} width={1000} height={500} alt={data.title} />
-      <p> {data.description} </p>
-      <form onSubmit={onSubmit} className="email_registration">
-        <label> Get Registered for this event!</label>
-        <input
-          ref={inputEmail}
-          type="email"
-          id="email"
-          placeholder="Please insert your email here"
-        />
-        <button type="submit"> Submit</button>
+    <div className="grid grid-cols-1 justify-center">
+      <h1 className='text-4xl mb-8'> {data.title} </h1>
+      <Image className='lg:max-h-40' src={data.image} width={600} height={300} alt={data.title} />
+      <p className='mt-4 mb-20 text-lg'> {data.description} </p>
+      <form onSubmit={onSubmit} className="email_registration ">
+        <label className='font-bold text-xl'> Get Registered for this event!</label>
+        <div className='flex items-center gap-2'>
+          <input
+            className='block bg-none max-w-lg p-2 border-2 border-gray-700'
+            ref={inputEmail}
+            type="email"
+            id="email"
+            placeholder="email@example.com"
+          />
+          <button className='my-2 block bg-none px-8 py-2 border-2 border-gray-700' type="submit"> Submit</button>
+        </div>
       </form>
       <p>{message}</p>
     </div>

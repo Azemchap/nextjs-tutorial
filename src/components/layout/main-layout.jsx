@@ -4,11 +4,11 @@ import { Header } from '../header/header';
 
 const MainLayout = ({ children }) => {
   return (
-    <>
+    <div className='relative'>
       <Header />
       <main>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 
