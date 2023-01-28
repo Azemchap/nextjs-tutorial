@@ -2,21 +2,30 @@
   "events_categories": [
     {
       "id": "london",
-      "title": "Events in London",
+      "title": "GARMIN WATCHES",
       "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem",
-      "image": "/images/1.jpg"
+      "image": "/images/1.jpg",
+      "rating": 4,
+      "reviewCount": 12,
+      "price": 20
     },
     {
       "id": "san-francisco",
-      "title": "Events in San Francisco",
+      "title": "GARMIN ELECTRONICS",
       "description": "corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.",
-      "image": "/images/2.jpg"
+      "image": "/images/2.jpg",
+      "rating": 2,
+      "reviewCount": 12,
+      "price": 20
     },
     {
       "id": "barcelona",
-      "title": "Events in Barcelona",
+      "title": "GARMIN PRODUCTS",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/3.jpg"
+      "image": "/images/3.jpg",
+      "rating": 3,
+      "reviewCount": 12,
+      "price": 20
     }
   ],
   "allEvents": [
@@ -26,7 +35,9 @@
       "city": "london",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
       "image": "/images/4.jpg",
-      "emails_registered": ["eret@gmail.com"]
+      "emails_registered": [
+        "eret@gmail.com"
+      ]
     },
     {
       "id": "new-years-eve-in-london-2023",
@@ -42,7 +53,10 @@
       "city": "london",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
       "image": "/images/7.jpg",
-      "emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
+      "emails_registered": [
+        "alicia@gmail.com",
+        "monica@gmail.com"
+      ]
     },
     {
       "id": "sigala-at-electric-brixton",
@@ -50,7 +64,9 @@
       "city": "london",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
       "image": "/images/8.jpg",
-      "emails_registered": ["monica@gmail.com"]
+      "emails_registered": [
+        "monica@gmail.com"
+      ]
     },
     {
       "id": "kiss-haunted-house-party-2022",
@@ -66,7 +82,10 @@
       "city": "san-francisco",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
       "image": "/images/10.jpg",
-      "emails_registered": ["laura@gmail.com", "azemchap@gmail.com"]
+      "emails_registered": [
+        "laura@gmail.com",
+        "azemchap@gmail.com"
+      ]
     },
     {
       "id": "innovation-summit-san-francisco",
@@ -74,7 +93,9 @@
       "city": "san-francisco",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
       "image": "/images/11.jpg",
-      "emails_registered": ["admin@example.com"]
+      "emails_registered": [
+        "admin@example.com"
+      ]
     },
     {
       "id": "fan-expo-san-francisco",
@@ -110,7 +131,10 @@
       "city": "barcelona",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
       "image": "/images/12.jpg",
-      "emails_registered": ["david@yahoo.com", "claire@ss.com"]
+      "emails_registered": [
+        "david@yahoo.com",
+        "claire@ss.com"
+      ]
     },
     {
       "id": "international-conference-on-industrial-design",
@@ -130,7 +154,10 @@
       "city": "barcelona",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
       "image": "/images/4.jpg",
-      "emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
+      "emails_registered": [
+        "alicia@gmail.com",
+        "monica@gmail.com"
+      ]
     },
     {
       "id": "riskminds-international",
@@ -138,7 +165,10 @@
       "city": "barcelona",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
       "image": "/images/4.jpg",
-      "emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
+      "emails_registered": [
+        "alicia@gmail.com",
+        "monica@gmail.com"
+      ]
     }
   ]
 }
