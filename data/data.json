@@ -54,6 +54,17 @@
       "emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
     },
     {
+      "id": "sigala-at-electric-brixton",
+      "title": "Venu® Series",
+      "city": "london",
+      "description": "You're looking for something bright, colorful, sleek and stylish. A GPS smartwatch that keeps you active and in tune with your body. This one is sure to stand out.",
+      "image": "/images/images/download (4).webp",
+      "rating": 3,
+      "reviewCount": 412,
+      "price": 249.99,
+      "emails_registered": ["monica@gmail.com"]
+    },
+    {
       "id": "kiss-haunted-house-party-2022",
       "title": " Forerunner® 255 Series ",
       "city": "london",
