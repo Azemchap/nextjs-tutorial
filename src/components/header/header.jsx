@@ -12,7 +12,7 @@ export const Header = () => {
           <>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex justify-between h-16">
-                <div className="flex">
+                <div className="flex gap-10">
                   <div className="flex-shrink-0 flex items-center mt-3">
                     <Link href={`/`} passHref>
                       <a >
@@ -29,7 +29,7 @@ export const Header = () => {
                       alt="Workflow" width={30} height={30}
                     /> */}
                   </div>
-                  <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+                  <div className="hidden  sm:ml-6 sm:flex sm:space-x-8">
                     {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                     <Link href={`/events/london`} passHref>
                       <a className="border-transparent text-gray-800 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
@@ -41,11 +41,7 @@ export const Header = () => {
                         Electronics
                       </a>
                     </Link>
-                    <Link href={`/events/barcelona`} passHref>
-                      <a className="border-transparent text-gray-800 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                        Products
-                      </a>
-                    </Link>
+                   
                   </div>
                 </div>
 
@@ -102,13 +98,7 @@ export const Header = () => {
                 >
                   Electronics
                 </Disclosure.Button>
-                <Disclosure.Button
-                  as="a"
-                  href={`/events/barcelona`}
-                  className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                >
-                  Products
-                </Disclosure.Button>
+               
                 <Disclosure.Button
                   as="a"
                   href={`/about-us`}

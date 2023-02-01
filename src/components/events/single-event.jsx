@@ -1,62 +1,49 @@
-import Image from 'next/image';
-import { useRouter } from 'next/router';
-import React, { useRef, useState } from 'react';
+import Image from 'next/image'
+import React from 'react'
+import { StarIcon } from '@heroicons/react/solid'
+import Link from 'next/link'
+
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
 
 const SingleEvent = ({ data }) => {
-  const inputEmail = useRef();
-  const router = useRouter();
-  const [message, setMessage] = useState('');
-
-  const onSubmit = async (e) => {
-    e.preventDefault();
-    const emailValue = inputEmail.current.value;
-    const eventId = router?.query.id;
-
-    const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
-    if (!emailValue.match(validRegex)) {
-      setMessage('Please introduce a correct email address');
-    }
-
-    try {
-      const response = await fetch('/api/email-registration', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email: emailValue, eventId }),
-      });
-
-      if (!response.ok) throw new Error(`Error: ${response.status}`);
-      const data = await response.json();
-      setMessage(data.message);
-      inputEmail.current.value = '';
-    } catch (e) {
-      console.log('ERROR', e);
-    }
-  };
-
   return (
-    <div className="grid grid-cols-1 justify-center">
+    <div className="">
       <h1 className='text-4xl mb-8'> {data.title} </h1>
-      <Image className='lg:max-h-40' src={data.image} width={600} height={300} alt={data.title} />
-      <p className='mt-4 mb-20 text-lg'> {data.description} </p>
-      <form onSubmit={onSubmit} className="email_registration ">
-        <label className='font-bold text-xl'> Get Registered for this event!</label>
-        <div className='flex items-center gap-2'>
-          <input
-            className='block bg-none max-w-lg p-2 border-2 border-gray-700'
-            ref={inputEmail}
-            type="email"
-            id="email"
-            placeholder="email@example.com"
-          />
-          <button className='my-2 block bg-none px-8 py-2 border-2 border-gray-700' type="submit"> Submit</button>
+      <div className="grid sm:grid-cols-2 gap-4 ">
+        <Image width={300} height={300} alt={data.title} src={data.image} />
+        <div className="info p-4">
+          <h2 className='text-2xl mb-2'> {data.title} </h2>
+          <p> {data.description} </p>
+          <div className='justify-self-end'>
+            <div className="mt-3 flex flex-col items-start">
+              <p className="sr-only">{data.rating} out of 5 stars</p>
+              <div className="flex items-center">
+                {[0, 1, 2, 3, 4].map((rating) => (
+                  <StarIcon
+                    key={rating}
+                    className={classNames(
+                      data.rating > rating ? 'text-yellow-400' : 'text-gray-200',
+                      'flex-shrink-0 h-5 w-5'
+                    )}
+                    aria-hidden="true"
+                  />
+                ))}
+              </div>
+              <p className="mt-1 text-sm text-gray-500">{data.reviewCount} reviews</p>
+            </div>
+            <p className="mt-4 text-base font-medium text-gray-800">$ {data.price}</p>
+            <Link href={`/thank-you`} passHref>
+              <a className='inline-block rounded-sm my-4 p-4 px-10 bg-sky-500 text-white'><p>Order now</p></a>
+            </Link>
+          </div>
         </div>
-      </form>
-      <p>{message}</p>
-    </div>
-  );
-};
+      </div>
 
-export default SingleEvent;
+    </div>
+  )
+}
+
+export default SingleEvent

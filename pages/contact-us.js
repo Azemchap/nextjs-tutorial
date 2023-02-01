@@ -1,42 +1,23 @@
+import Link from 'next/link'
+
 const ContactUsPage = () => {
   return (
-    <div >
-      <h1 className='my-4 text-slate-900 text-2xl'> Contact us </h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <h2>Dlor in reprehenderit </h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <ul className="about_us_list mt-4">
-        <li>
-          <h3>Dlor in reprehenderit </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in
-          </p>
-        </li>
-        <li>
-          <h3>Sed do eiusmod tempor </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in
-          </p>
-        </li>
-      </ul>
+    <div className='max-w-xl m-auto text-center flex flex-col items-center gap-4 mt-4' >
+
+      <h1 className=' text-slate-900 text-2xl mb-10'> THANK YOU FOR VISITING GARMIN ELECTRONICS </h1>
+      <h4>FOR ALL YOURS ORDERS AND ENQUIRES PLEASE FEEL FREE TO CONTACT US THROUGH ANY OF THE FOLLOWING MEANS PROVIDED BELOW.</h4>
+      <div className="contact_info my-6">
+        <h3 ><span className="">Phone: </span><span>+1(503) 377-6489</span></h3>
+        <h3 ><span className="">Email: </span><span>garminwatches3@gmail.com</span></h3>
+
+
+      </div>
+      <Link href={`/`} passHref>
+        <a className="block bg-sky-300 p-4 mt-4">
+          <p>  Go back to homepage</p>
+        </a>
+      </Link>
+
     </div>
   )
 }

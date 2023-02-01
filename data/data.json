@@ -2,173 +2,144 @@
   "events_categories": [
     {
       "id": "london",
-      "title": "GARMIN WATCHES",
-      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem",
-      "image": "/images/1.jpg",
-      "rating": 4,
-      "reviewCount": 12,
-      "price": 20
+      "title": "WEARABLES",
+      "description": "Wearables & Smartwatches with essential utility, leading-edge technologies, compelling features with the highest quality.",
+      "image": "/images/images/2022-ASSETS-4.jpg"
     },
     {
       "id": "san-francisco",
-      "title": "GARMIN ELECTRONICS",
-      "description": "corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.",
-      "image": "/images/2.jpg",
-      "rating": 2,
-      "reviewCount": 12,
-      "price": 20
+      "title": "ELECTRONICS",
+      "description": "The possibilities are infinite. Garmin technology goes well beyond GPS. not just in navigation but across an impressive range of infotainment and related  electronics.",
+      "image": "/images/images/download (6).jpg"
     },
     {
       "id": "barcelona",
-      "title": "GARMIN PRODUCTS",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/3.jpg",
-      "rating": 3,
-      "reviewCount": 12,
-      "price": 20
+      "title": "Top products",
+      "description": "We offer products with leading-edge technologies, and exceptional ease-of-use to create clear differentiators our customers appreciate and desire.",
+      "image": "/images/images/blue-Marine.jpg"
     }
   ],
   "allEvents": [
     {
       "id": "london-comic-con-winter",
-      "title": "London Comic Con Winter",
+      "title": " Forerunner® 955 Series ",
       "city": "london",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/4.jpg",
-      "emails_registered": [
-        "eret@gmail.com"
-      ]
+      "description": "You train to win and run with the best. Lead the pack with this premium GPS running and triathlon smartwatch.",
+      "image": "/images/images/download (1).webp",
+      "rating": 4,
+      "reviewCount": 122,
+      "price": 499.99,
+      "emails_registered": ["eret@gmail.com"]
     },
     {
       "id": "new-years-eve-in-london-2023",
-      "title": "New Years Eve in London 2023 ",
+      "title": " Fēnix® 7 Series  ",
       "city": "london",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/6.jpg",
+      "description": "You’re an athlete or adventurer who wants it all: Multisport performance features. Outdoor navigation. 24/7 wearability. This rugged GPS smartwatch series has you covered.",
+      "image": "/images/images/download (2).webp",
+      "rating": 5,
+      "reviewCount": 254,
+      "price": 699.99,
       "emails_registered": []
     },
     {
       "id": "'edtech-world-summit-2022",
-      "title": "EdTech London Summit 2022",
+      "title": " Epix™ ",
       "city": "london",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/7.jpg",
-      "emails_registered": [
-        "alicia@gmail.com",
-        "monica@gmail.com"
-      ]
+      "description": "You live an athletic lifestyle. You need this premium active smartwatch with a stunning AMOLED display to help you overcome every challenge.",
+      "image": "/images/images/download (3).webp",
+      "rating": 5,
+      "reviewCount": 654,
+      "price": 899.99,
+      "emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
     },
     {
       "id": "sigala-at-electric-brixton",
-      "title": "Sigala at Electric Brixton",
+      "title": " Venu® Series ",
       "city": "london",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/8.jpg",
-      "emails_registered": [
-        "monica@gmail.com"
-      ]
+      "description": "You're looking for something bright, colorful, sleek and stylish. A GPS smartwatch that keeps you active and in tune with your body. This one is sure to stand out.",
+      "image": "/images/images/download (4).webp",
+      "rating": 3,
+      "reviewCount": 412,
+      "price": 249.99,
+      "emails_registered": ["monica@gmail.com"]
     },
     {
       "id": "kiss-haunted-house-party-2022",
-      "title": "KISS Haunted House Party 2022",
+      "title": " Forerunner® 255 Series ",
       "city": "london",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/9.jpg",
+      "description": "You’re serious about running. Step it up with the Forerunner® 255 smartwatch series, the everyday GPS smartwatches that will help you train smarter, recover smarter and run your best race.",
+      "image": "/images/images/download10.webp",
+      "rating": 4,
+      "reviewCount": 182,
+      "price": 349.99,
       "emails_registered": []
     },
     {
       "id": "sf-blockchain-week",
-      "title": "SF Blockchain Week",
+      "title": "GARMIN DASH CAM™ LIVE",
       "city": "san-francisco",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/10.jpg",
-      "emails_registered": [
-        "laura@gmail.com",
-        "azemchap@gmail.com"
-      ]
+      "description": "Access a 24/7 live view from this LTE dash cam when you’re away from your parked vehicle. Get peace of mind with an always-connected dash cam.",
+      "image": "/images/images/dashcam.webp",
+      "rating": 4,
+      "reviewCount": 742,
+      "price": 849.99,
+      "emails_registered": ["laura@gmail.com", "azemchap@gmail.com"]
     },
     {
       "id": "innovation-summit-san-francisco",
-      "title": "Innovation Summit San Francisco",
+      "title": "Garmin DriveSmart™ 86",
       "city": "san-francisco",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/11.jpg",
-      "emails_registered": [
-        "admin@example.com"
-      ]
-    },
-    {
-      "id": "fan-expo-san-francisco",
-      "title": "FAN EXPO San Francisco",
-      "city": "san-francisco",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/12.jpg",
-      "emails_registered": []
+      "description": "Whether it’s a family vacation, weekend getaway or your daily commute, the 8” Garmin DriveSmart 86 GPS navigator brings new levels of freedom, convenience and peace of mind to your time on the road. Garmin voice assist helps you easily find and navigate where you want to go. ",
+      "image": "/images/images/39458-TN.jpg",
+      "rating": 4,
+      "reviewCount": 312,
+      "price": 349,
+      "emails_registered": ["admin@example.com"]
     },
     {
       "id": "san-francisco-opera---san-francisco-tickets",
-      "title": "San Francisco Opera - San Francisco Tickets",
+      "title": "Tacx® NEO Bike Plus",
       "city": "san-francisco",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/9.jpg",
+      "description": "Bring the outdoor world indoors with a smart bike that offers realistic road feel and simulated gradients from actual courses with the Tacx® Training smart-device app1 — plus easy customization to match your outdoor bike fit.",
+      "image": "/images/images/bike.png",
+      "rating": 3,
+      "reviewCount": 120,
+      "price": "3,999.99",
       "emails_registered": []
     },
     {
-      "id": "concert-christian-löffler-+-detect-ensemble",
-      "title": "Concert Christian Löffler + Detect Ensemble",
+      "id": "new-years-eve-in-london-2023",
+      "title": " Fēnix® 7 Series  ",
       "city": "barcelona",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/5.jpg",
-      "emails_registered": [
-        "alicia@gmail.com",
-        "monica@gmail.com",
-        "azempain@gmail.com"
-      ]
+      "description": "You’re an athlete or adventurer who wants it all: Multisport performance features. Outdoor navigation. 24/7 wearability. This rugged GPS smartwatch series has you covered.",
+      "image": "/images/images/download (2).webp",
+      "rating": 5,
+      "reviewCount": 254,
+      "price": 699.99,
+      "emails_registered": []
     },
     {
-      "id": "the-halloween-house-party",
-      "title": "The Halloween House Party",
+      "id": "'edtech-world-summit-2022",
+      "title": " Epix™ ",
       "city": "barcelona",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/12.jpg",
-      "emails_registered": [
-        "david@yahoo.com",
-        "claire@ss.com"
-      ]
+      "description": "You live an athletic lifestyle. You need this premium active smartwatch with a stunning AMOLED display to help you overcome every challenge.",
+      "image": "/images/images/download (3).webp",
+      "rating": 5,
+      "reviewCount": 654,
+      "price": 899.99,
+      "emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
     },
     {
-      "id": "international-conference-on-industrial-design",
-      "title": "International Conference on Industrial Design",
+      "id": "sf-blockchain-week",
+      "title": "GARMIN DASH CAM™ LIVE",
       "city": "barcelona",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/8.jpg",
-      "emails_registered": [
-        "alicia@gmail.com",
-        "monica@gmail.com",
-        "eret@gmail.co"
-      ]
-    },
-    {
-      "id": "world-congress-2022---barcelona",
-      "title": "World Congress 2022 - Barcelona",
-      "city": "barcelona",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/4.jpg",
-      "emails_registered": [
-        "alicia@gmail.com",
-        "monica@gmail.com"
-      ]
-    },
-    {
-      "id": "riskminds-international",
-      "title": "RiskMinds International",
-      "city": "barcelona",
-      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/4.jpg",
-      "emails_registered": [
-        "alicia@gmail.com",
-        "monica@gmail.com"
-      ]
+      "description": "Access a 24/7 live view from this LTE dash cam when you’re away from your parked vehicle. Get peace of mind with an always-connected dash cam.",
+      "image": "/images/images/dashcam.webp",
+      "rating": 4,
+      "reviewCount": 742,
+      "price": 849.99,
+      "emails_registered": ["laura@gmail.com", "azemchap@gmail.com"]
     }
   ]
 }
