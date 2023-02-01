@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from 'next/link'
+import Image from 'next/image'
 import { StarIcon } from '@heroicons/react/solid'
 
 function classNames(...classes) {
@@ -41,4 +41,4 @@ export const HomePage = ({ data }) => (
       </Link>
     ))}
   </div>
-);
+)
