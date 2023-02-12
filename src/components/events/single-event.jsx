@@ -32,11 +32,11 @@ const SingleEvent = ({ data }) => {
                   />
                 ))}
               </div>
-              <p className="mt-1 text-sm text-gray-500">{data.reviewCount} reviews</p>
+              <p className="mt-1 text-sm ">{data.reviewCount} reviews</p>
             </div>
-            <p className="mt-4 text-base font-medium text-gray-800">$ {data.price}</p>
+            <p className="mt-4 text-base font-medium ">$ {data.price}</p>
             <Link href={`/thank-you`} passHref>
-              <a className='inline-block rounded-sm my-4 p-4 px-10 bg-sky-500 text-white'><p>Order now</p></a>
+              <a className='inline-block rounded-sm my-4 p-4 px-10 bg-sky-500 text-white uppercase'><p>Add To Cart</p></a>
             </Link>
           </div>
         </div>

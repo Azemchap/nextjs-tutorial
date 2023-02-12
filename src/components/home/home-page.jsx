@@ -13,7 +13,7 @@ export const HomePage = ({ data }) => (
           </div>
           <div className="">
             <h2 className='text-2xl my-4 font-bold '> {ev.title} </h2>
-            <p className='text-gray-600 text-lg '> {ev.description} </p>
+            <p className=' text-lg '> {ev.description} </p>
           </div>
         </a>
       </Link>

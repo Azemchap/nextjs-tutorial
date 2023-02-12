@@ -4,7 +4,7 @@ const ContactUsPage = () => {
   return (
     <div className='max-w-xl m-auto text-center flex flex-col items-center gap-4 mt-4' >
 
-      <h1 className=' text-slate-900 text-2xl mb-10'> THANK YOU FOR VISITING GARMIN ELECTRONICS </h1>
+      <h1 className='text-2xl mb-10'> THANK YOU FOR VISITING GARMIN ELECTRONICS </h1>
       <h4>FOR ALL YOURS ORDERS AND ENQUIRES PLEASE FEEL FREE TO CONTACT US THROUGH ANY OF THE FOLLOWING MEANS PROVIDED BELOW.</h4>
       <div className="contact_info my-6">
         <h3 ><span className="">Phone: </span><span>+1(503) 377-6489</span></h3>
@@ -13,7 +13,7 @@ const ContactUsPage = () => {
 
       </div>
       <Link href={`/`} passHref>
-        <a className="block bg-sky-300 p-4 mt-4">
+        <a className="block bg-sky-500 text-white p-4 mt-4">
           <p>  Go back to homepage</p>
         </a>
       </Link>

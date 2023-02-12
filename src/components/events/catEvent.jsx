@@ -34,9 +34,9 @@ const CatEvent = ({ data }) => {
                         />
                       ))}
                     </div>
-                    <p className="mt-1 text-sm text-gray-500">{ev.reviewCount} reviews</p>
+                    <p className="mt-1 text-sm ">{ev.reviewCount} reviews</p>
                   </div>
-                  <p className="mt-4 text-base font-medium text-gray-800">$ {ev.price}</p>
+                  <p className="mt-4 text-base font-medium ">$ {ev.price}</p>
                 </div>
               </div>
             </a>
